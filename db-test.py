@@ -2,9 +2,9 @@ import pyodbc
 
 # Configuración de la conexión
 server = 'WINSERVER16\\SQLEXPRESS'  # Nombre del servidor SQL Server
-database = 'tu_base_de_datos'  # Nombre de tu base de datos
+database = 'prueba'  # Nombre de tu base de datos
 username = 'tu_usuario'  # Tu usuario (si usas la autenticación de Windows, puedes dejar estos campos vacíos)
-password = 'tu_contraseña'  # Tu contraseña
+password = 'Password.1!'  # Tu contraseña
 
 # Cadena de conexión
 # Si estás usando la autenticación de Windows (integrada), puedes usar Trusted_Connection=yes y omitir UID y PWD
